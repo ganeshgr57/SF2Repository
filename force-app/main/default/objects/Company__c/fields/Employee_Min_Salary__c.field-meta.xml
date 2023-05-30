@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Employee_Min_Salary__c</fullName>
+    <externalId>false</externalId>
+    <label>Employee Min Salary</label>
+    <summarizedField>Employee__c.Salary__c</summarizedField>
+    <summaryForeignKey>Employee__c.Company__c</summaryForeignKey>
+    <summaryOperation>min</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>
